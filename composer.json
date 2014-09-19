@@ -1,0 +1,22 @@
+{
+    "name": "gnoesiboe/doctrine2",
+    "description": "",
+    "authors": [
+        {
+            "name": "GIjs Nieuwenhuis",
+            "email": "gijsnieuwenhuis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "doctrine/orm": "2.3.5",
+        "doctrine/migrations": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gnoesiboe\\Doctrine2": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

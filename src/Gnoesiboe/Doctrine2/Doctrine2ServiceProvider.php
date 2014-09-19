@@ -15,7 +15,7 @@ use Gnoesiboe\Doctrine2\Command\MigrationsLatestCommand;
 use Gnoesiboe\Doctrine2\Command\MigrationsMigrateCommand;
 use Gnoesiboe\Doctrine2\Command\MigrationsStatusCommand;
 use Gnoesiboe\Doctrine2\Command\MigrationsVersionCommand;
-use Gnoesiboe\Domain\SqlLogger;
+use Gnoesiboe\Doctrine2\SqlLogger;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Doctrine\ORM\Tools\Console\Helper\EntityManagerHelper;
